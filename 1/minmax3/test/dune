@@ -1,0 +1,5 @@
+(library
+ (name test_minmax3)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries minmax3))

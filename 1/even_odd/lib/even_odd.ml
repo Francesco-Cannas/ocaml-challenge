@@ -1,5 +1,5 @@
 let is_even x = match x with
-    _ when (x mod 2) == 0 -> true
+    _ when (x mod 2) = 0 -> true
   | _ -> false
 
 let aux x = match x with

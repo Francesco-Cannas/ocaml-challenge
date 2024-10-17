@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/head_or_tail/META"
+  "_build/install/default/lib/head_or_tail/dune-package"
+  "_build/install/default/lib/head_or_tail/opam"
+]
+bin: [
+  "_build/install/default/bin/head_or_tail"
+]
+doc: [
+  "_build/install/default/doc/head_or_tail/README.md"
+]

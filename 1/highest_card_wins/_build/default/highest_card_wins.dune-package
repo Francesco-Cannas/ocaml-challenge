@@ -1,0 +1,7 @@
+(lang dune 3.16)
+(name highest_card_wins)
+(sections (lib .) (bin ../../bin) (doc ../../doc/highest_card_wins))
+(files
+ (lib (META dune-package opam))
+ (bin (highest_card_wins))
+ (doc (README.md)))

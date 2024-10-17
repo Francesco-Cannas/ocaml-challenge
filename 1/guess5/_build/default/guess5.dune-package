@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name guess5)
+(sections (lib .) (bin ../../bin) (doc ../../doc/guess5))
+(files (lib (META dune-package opam)) (bin (guess5)) (doc (README.md)))

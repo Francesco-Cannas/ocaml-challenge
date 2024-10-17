@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/highest_card_wins/META"
+  "_build/install/default/lib/highest_card_wins/dune-package"
+  "_build/install/default/lib/highest_card_wins/opam"
+]
+bin: [
+  "_build/install/default/bin/highest_card_wins"
+]
+doc: [
+  "_build/install/default/doc/highest_card_wins/README.md"
+]

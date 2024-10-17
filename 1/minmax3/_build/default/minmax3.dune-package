@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name minmax3)
+(sections (lib .) (bin ../../bin) (doc ../../doc/minmax3))
+(files (lib (META dune-package opam)) (bin (minmax3)) (doc (README.md)))

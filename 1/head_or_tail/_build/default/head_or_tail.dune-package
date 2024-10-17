@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name head_or_tail)
+(sections (lib .) (bin ../../bin) (doc ../../doc/head_or_tail))
+(files (lib (META dune-package opam)) (bin (head_or_tail)) (doc (README.md)))

@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/minmax3/META"
+  "_build/install/default/lib/minmax3/dune-package"
+  "_build/install/default/lib/minmax3/opam"
+]
+bin: [
+  "_build/install/default/bin/minmax3"
+]
+doc: [
+  "_build/install/default/doc/minmax3/README.md"
+]

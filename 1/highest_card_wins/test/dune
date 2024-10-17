@@ -1,0 +1,5 @@
+(library
+ (name test_highest_card_wins)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries highest_card_wins))

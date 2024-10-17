@@ -1,0 +1,5 @@
+(library
+ (name test_head_or_tail)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries head_or_tail))
