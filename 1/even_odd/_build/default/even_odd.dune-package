@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name even_odd)
+(sections (lib .) (bin ../../bin) (doc ../../doc/even_odd))
+(files (lib (META dune-package opam)) (bin (even_odd)) (doc (README.md)))

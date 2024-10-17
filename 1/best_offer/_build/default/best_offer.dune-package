@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name best_offer)
+(sections (lib .) (bin ../../bin) (doc ../../doc/best_offer))
+(files (lib (META dune-package opam)) (bin (best_offer)) (doc (README.md)))

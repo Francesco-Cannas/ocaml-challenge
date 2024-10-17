@@ -1,0 +1,4 @@
+(executable
+ (public_name even_odd)
+ (name main)
+ (libraries even_odd))

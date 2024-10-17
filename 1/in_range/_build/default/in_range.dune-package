@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name in_range)
+(sections (lib .) (bin ../../bin) (doc ../../doc/in_range))
+(files (lib (META dune-package opam)) (bin (in_range)) (doc (README.md)))

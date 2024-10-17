@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/exp9/META"
+  "_build/install/default/lib/exp9/dune-package"
+  "_build/install/default/lib/exp9/opam"
+]
+bin: [
+  "_build/install/default/bin/exp9"
+]
+doc: [
+  "_build/install/default/doc/exp9/README.md"
+]

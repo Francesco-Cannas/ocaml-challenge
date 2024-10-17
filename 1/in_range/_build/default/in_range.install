@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/in_range/META"
+  "_build/install/default/lib/in_range/dune-package"
+  "_build/install/default/lib/in_range/opam"
+]
+bin: [
+  "_build/install/default/bin/in_range"
+]
+doc: [
+  "_build/install/default/doc/in_range/README.md"
+]

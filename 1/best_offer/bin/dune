@@ -1,0 +1,4 @@
+(executable
+ (public_name best_offer)
+ (name main)
+ (libraries best_offer))

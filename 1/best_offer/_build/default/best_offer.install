@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/best_offer/META"
+  "_build/install/default/lib/best_offer/dune-package"
+  "_build/install/default/lib/best_offer/opam"
+]
+bin: [
+  "_build/install/default/bin/best_offer"
+]
+doc: [
+  "_build/install/default/doc/best_offer/README.md"
+]

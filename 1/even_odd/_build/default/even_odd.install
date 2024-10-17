@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/even_odd/META"
+  "_build/install/default/lib/even_odd/dune-package"
+  "_build/install/default/lib/even_odd/opam"
+]
+bin: [
+  "_build/install/default/bin/even_odd"
+]
+doc: [
+  "_build/install/default/doc/even_odd/README.md"
+]

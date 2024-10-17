@@ -1,0 +1,5 @@
+(library
+ (name test_even_odd)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries even_odd))
