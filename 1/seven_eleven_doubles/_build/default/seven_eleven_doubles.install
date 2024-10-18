@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/seven_eleven_doubles/META"
+  "_build/install/default/lib/seven_eleven_doubles/dune-package"
+  "_build/install/default/lib/seven_eleven_doubles/opam"
+]
+bin: [
+  "_build/install/default/bin/seven_eleven_doubles"
+]
+doc: [
+  "_build/install/default/doc/seven_eleven_doubles/README.md"
+]

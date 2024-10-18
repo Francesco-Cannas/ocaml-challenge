@@ -1,0 +1,7 @@
+(lang dune 3.16)
+(name seven_eleven_doubles)
+(sections (lib .) (bin ../../bin) (doc ../../doc/seven_eleven_doubles))
+(files
+ (lib (META dune-package opam))
+ (bin (seven_eleven_doubles))
+ (doc (README.md)))

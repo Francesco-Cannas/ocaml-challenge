@@ -1,0 +1,5 @@
+(library
+ (name test_seven_eleven_doubles)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries seven_eleven_doubles))
