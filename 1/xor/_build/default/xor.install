@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/xor/META"
+  "_build/install/default/lib/xor/dune-package"
+  "_build/install/default/lib/xor/opam"
+]
+bin: [
+  "_build/install/default/bin/xor"
+]
+doc: [
+  "_build/install/default/doc/xor/README.md"
+]

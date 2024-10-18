@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name xor)
+(sections (lib .) (bin ../../bin) (doc ../../doc/xor))
+(files (lib (META dune-package opam)) (bin (xor)) (doc (README.md)))
