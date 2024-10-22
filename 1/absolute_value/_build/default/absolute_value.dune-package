@@ -1,0 +1,7 @@
+(lang dune 3.16)
+(name absolute_value)
+(sections (lib .) (bin ../../bin) (doc ../../doc/absolute_value))
+(files
+ (lib (META dune-package opam))
+ (bin (absolute_value))
+ (doc (README.md)))

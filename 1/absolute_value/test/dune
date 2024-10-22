@@ -1,0 +1,5 @@
+(library
+ (name test_absolute_value)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries absolute_value))
