@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/parrot_trouble/META"
+  "_build/install/default/lib/parrot_trouble/dune-package"
+  "_build/install/default/lib/parrot_trouble/opam"
+]
+bin: [
+  "_build/install/default/bin/parrot_trouble"
+]
+doc: [
+  "_build/install/default/doc/parrot_trouble/README.md"
+]

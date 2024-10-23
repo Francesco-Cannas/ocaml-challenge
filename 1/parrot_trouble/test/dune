@@ -1,0 +1,5 @@
+(library
+ (name test_parrot_trouble)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries parrot_trouble))

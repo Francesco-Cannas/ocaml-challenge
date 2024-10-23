@@ -1,0 +1,5 @@
+(library
+ (name test_weekly_lectures)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries weekly_lectures))

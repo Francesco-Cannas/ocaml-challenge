@@ -1,0 +1,4 @@
+(executable
+ (public_name weekly_lectures)
+ (name main)
+ (libraries weekly_lectures))
