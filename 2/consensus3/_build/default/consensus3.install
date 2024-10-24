@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/consensus3/META"
+  "_build/install/default/lib/consensus3/dune-package"
+  "_build/install/default/lib/consensus3/opam"
+]
+bin: [
+  "_build/install/default/bin/consensus3"
+]
+doc: [
+  "_build/install/default/doc/consensus3/README.md"
+]

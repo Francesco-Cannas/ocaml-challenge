@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/tris/META"
+  "_build/install/default/lib/tris/dune-package"
+  "_build/install/default/lib/tris/opam"
+]
+bin: [
+  "_build/install/default/bin/tris"
+]
+doc: [
+  "_build/install/default/doc/tris/README.md"
+]

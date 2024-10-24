@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name consensus3)
+(sections (lib .) (bin ../../bin) (doc ../../doc/consensus3))
+(files (lib (META dune-package opam)) (bin (consensus3)) (doc (README.md)))

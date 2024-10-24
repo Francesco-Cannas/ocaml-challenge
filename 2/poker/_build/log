@@ -1,0 +1,6 @@
+# dune init project poker
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/opam/.cache/dune/db
+# Workspace root: /workspaces/ocaml-challenge/2/poker
+# Auto-detected concurrency: 4
