@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/exam_committee/META"
+  "_build/install/default/lib/exam_committee/dune-package"
+  "_build/install/default/lib/exam_committee/opam"
+]
+bin: [
+  "_build/install/default/bin/exam_committee"
+]
+doc: [
+  "_build/install/default/doc/exam_committee/README.md"
+]

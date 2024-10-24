@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/squirrel_play/META"
+  "_build/install/default/lib/squirrel_play/dune-package"
+  "_build/install/default/lib/squirrel_play/opam"
+]
+bin: [
+  "_build/install/default/bin/squirrel_play"
+]
+doc: [
+  "_build/install/default/doc/squirrel_play/README.md"
+]

@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name squirrel_play)
+(sections (lib .) (bin ../../bin) (doc ../../doc/squirrel_play))
+(files (lib (META dune-package opam)) (bin (squirrel_play)) (doc (README.md)))

@@ -1,0 +1,5 @@
+(library
+ (name test_exam_committee)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries exam_committee))

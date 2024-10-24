@@ -1,0 +1,5 @@
+(library
+ (name test_squirrel_play)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries squirrel_play))

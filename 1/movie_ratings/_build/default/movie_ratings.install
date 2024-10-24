@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/movie_ratings/META"
+  "_build/install/default/lib/movie_ratings/dune-package"
+  "_build/install/default/lib/movie_ratings/opam"
+]
+bin: [
+  "_build/install/default/bin/movie_ratings"
+]
+doc: [
+  "_build/install/default/doc/movie_ratings/README.md"
+]

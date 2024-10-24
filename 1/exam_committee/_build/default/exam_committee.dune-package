@@ -1,0 +1,7 @@
+(lang dune 3.16)
+(name exam_committee)
+(sections (lib .) (bin ../../bin) (doc ../../doc/exam_committee))
+(files
+ (lib (META dune-package opam))
+ (bin (exam_committee))
+ (doc (README.md)))

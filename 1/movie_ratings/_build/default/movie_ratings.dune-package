@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name movie_ratings)
+(sections (lib .) (bin ../../bin) (doc ../../doc/movie_ratings))
+(files (lib (META dune-package opam)) (bin (movie_ratings)) (doc (README.md)))
