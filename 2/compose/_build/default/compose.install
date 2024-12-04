@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/compose/META"
+  "_build/install/default/lib/compose/dune-package"
+  "_build/install/default/lib/compose/opam"
+]
+bin: [
+  "_build/install/default/bin/compose"
+]
+doc: [
+  "_build/install/default/doc/compose/README.md"
+]

@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name compose)
+(sections (lib .) (bin ../../bin) (doc ../../doc/compose))
+(files (lib (META dune-package opam)) (bin (compose)) (doc (README.md)))
