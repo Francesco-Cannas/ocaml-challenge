@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/blood_donations/META"
+  "_build/install/default/lib/blood_donations/dune-package"
+  "_build/install/default/lib/blood_donations/opam"
+]
+bin: [
+  "_build/install/default/bin/blood_donations"
+]
+doc: [
+  "_build/install/default/doc/blood_donations/README.md"
+]

@@ -1,0 +1,7 @@
+(lang dune 3.16)
+(name blood_donations)
+(sections (lib .) (bin ../../bin) (doc ../../doc/blood_donations))
+(files
+ (lib (META dune-package opam))
+ (bin (blood_donations))
+ (doc (README.md)))
