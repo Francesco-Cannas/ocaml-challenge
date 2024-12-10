@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/flip_curry/META"
+  "_build/install/default/lib/flip_curry/dune-package"
+  "_build/install/default/lib/flip_curry/opam"
+]
+bin: [
+  "_build/install/default/bin/flip_curry"
+]
+doc: [
+  "_build/install/default/doc/flip_curry/README.md"
+]

@@ -1,0 +1,5 @@
+(library
+ (name test_both_true)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries both_true))

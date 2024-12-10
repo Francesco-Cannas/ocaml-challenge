@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name flip_curry)
+(sections (lib .) (bin ../../bin) (doc ../../doc/flip_curry))
+(files (lib (META dune-package opam)) (bin (flip_curry)) (doc (README.md)))
