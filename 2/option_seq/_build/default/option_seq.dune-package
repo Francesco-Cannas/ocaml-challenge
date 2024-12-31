@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name option_seq)
+(sections (lib .) (bin ../../bin) (doc ../../doc/option_seq))
+(files (lib (META dune-package opam)) (bin (option_seq)) (doc (README.md)))

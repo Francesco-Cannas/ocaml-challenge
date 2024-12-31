@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/option_map/META"
+  "_build/install/default/lib/option_map/dune-package"
+  "_build/install/default/lib/option_map/opam"
+]
+bin: [
+  "_build/install/default/bin/option_map"
+]
+doc: [
+  "_build/install/default/doc/option_map/README.md"
+]

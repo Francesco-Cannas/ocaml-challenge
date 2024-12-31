@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/eqboolbool/META"
+  "_build/install/default/lib/eqboolbool/dune-package"
+  "_build/install/default/lib/eqboolbool/opam"
+]
+bin: [
+  "_build/install/default/bin/eqboolbool"
+]
+doc: [
+  "_build/install/default/doc/eqboolbool/README.md"
+]

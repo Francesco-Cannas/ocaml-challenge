@@ -1,0 +1,45 @@
+# dune test
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/opam/.cache/dune/db
+# Workspace root: /workspaces/ocaml-challenge/2/eqboolbool
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/opam/.opam/5.2/bin/ocamlc.opt -config > /tmp/dune_480f69_output
+$ (cd _build/default && /home/opam/.opam/5.2/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I lib/.eqboolbool.objs/byte -no-alias-deps -opaque -o lib/.eqboolbool.objs/byte/eqboolbool.cmo -c -impl lib/eqboolbool.ml)
+$ (cd _build/default && /home/opam/.opam/5.2/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I lib/.eqboolbool.objs/byte -I lib/.eqboolbool.objs/native -intf-suffix .ml -no-alias-deps -opaque -o lib/.eqboolbool.objs/native/eqboolbool.cmx -c -impl lib/eqboolbool.ml)
+$ (cd _build/default && /home/opam/.opam/5.2/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I test/.test_eqboolbool.objs/byte -I /home/opam/.opam/5.2/lib/base -I /home/opam/.opam/5.2/lib/base/base_internalhash_types -I /home/opam/.opam/5.2/lib/base/shadow_stdlib -I /home/opam/.opam/5.2/lib/jane-street-headers -I /home/opam/.opam/5.2/lib/ocaml_intrinsics_kernel -I /home/opam/.opam/5.2/lib/ppx_compare/runtime-lib -I /home/opam/.opam/5.2/lib/ppx_enumerate/runtime-lib -I /home/opam/.opam/5.2/lib/ppx_hash/runtime-lib -I /home/opam/.opam/5.2/lib/ppx_inline_test/config -I /home/opam/.opam/5.2/lib/ppx_inline_test/runtime-lib -I /home/opam/.opam/5.2/lib/ppx_sexp_conv/runtime-lib -I /home/opam/.opam/5.2/lib/sexplib0 -I /home/opam/.opam/5.2/lib/time_now -I lib/.eqboolbool.objs/byte -no-alias-deps -opaque -o test/.test_eqboolbool.objs/byte/test_eqboolbool.cmo -c -impl test/test_eqboolbool.pp.ml)
+> File "test/test_eqboolbool.ml", line 3, characters 18-19:
+> 3 | let%test _ = (fun b -> true) =? (fun b -> true)
+>                       ^
+> Error (warning 27 [unused-var-strict]): unused variable b.
+>
+> File "test/test_eqboolbool.ml", line 3, characters 37-38:
+> 3 | let%test _ = (fun b -> true) =? (fun b -> true)
+>                                          ^
+> Error (warning 27 [unused-var-strict]): unused variable b.
+>
+> File "test/test_eqboolbool.ml", line 4, characters 34-35:
+> 4 | let%test _ = (fun b -> b) =? (fun b -> true) = false
+>                                       ^
+> Error (warning 27 [unused-var-strict]): unused variable b.
+>
+> File "test/test_eqboolbool.ml", line 5, characters 18-19:
+> 5 | let%test _ = (fun b -> false) =? (fun b -> true) = false
+>                       ^
+> Error (warning 27 [unused-var-strict]): unused variable b.
+>
+> File "test/test_eqboolbool.ml", line 5, characters 38-39:
+> 5 | let%test _ = (fun b -> false) =? (fun b -> true) = false
+>                                           ^
+> Error (warning 27 [unused-var-strict]): unused variable b.
+[2]
+$ (cd _build/default && /home/opam/.opam/5.2/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/eqboolbool.cmxa lib/.eqboolbool.objs/native/eqboolbool.cmx)

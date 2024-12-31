@@ -1,0 +1,4 @@
+(executable
+ (public_name restrict_dom)
+ (name main)
+ (libraries restrict_dom))

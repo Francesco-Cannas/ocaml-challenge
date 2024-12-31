@@ -1,0 +1,5 @@
+(library
+ (name test_restrict_dom)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries restrict_dom))

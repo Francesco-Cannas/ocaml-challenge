@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name option_map)
+(sections (lib .) (bin ../../bin) (doc ../../doc/option_map))
+(files (lib (META dune-package opam)) (bin (option_map)) (doc (README.md)))

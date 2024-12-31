@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/alternative/META"
+  "_build/install/default/lib/alternative/dune-package"
+  "_build/install/default/lib/alternative/opam"
+]
+bin: [
+  "_build/install/default/bin/alternative"
+]
+doc: [
+  "_build/install/default/doc/alternative/README.md"
+]
