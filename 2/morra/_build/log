@@ -1,0 +1,6 @@
+# dune init project morra
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/opam/.cache/dune/db
+# Workspace root: /workspaces/ocaml-challenge/2/morra
+# Auto-detected concurrency: 4

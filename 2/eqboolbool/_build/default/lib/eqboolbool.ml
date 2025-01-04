@@ -1,5 +1,2 @@
-
-
-  let ( =? ) (f : bool -> bool) (g : bool -> bool) : bool =
-  let test b = f b = g b in
-  test true && test false
+let (=?) (f : bool -> bool) (g : bool -> bool) : bool = 
+  (f true = g true) && (f false = g false)

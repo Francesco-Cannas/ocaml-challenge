@@ -1,0 +1,1 @@
+type winner = Player | Computer | Tie ;;

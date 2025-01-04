@@ -1,0 +1,5 @@
+(library
+ (name test_fun_of_type)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries fun_of_type))

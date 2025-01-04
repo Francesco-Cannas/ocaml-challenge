@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/straight/META"
+  "_build/install/default/lib/straight/dune-package"
+  "_build/install/default/lib/straight/opam"
+]
+bin: [
+  "_build/install/default/bin/straight"
+]
+doc: [
+  "_build/install/default/doc/straight/README.md"
+]

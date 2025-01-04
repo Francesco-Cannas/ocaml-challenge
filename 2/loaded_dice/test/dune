@@ -1,0 +1,5 @@
+(library
+ (name test_loaded_dice)
+ (inline_tests) 
+ (preprocess (pps ppx_inline_test))
+ (libraries loaded_dice))

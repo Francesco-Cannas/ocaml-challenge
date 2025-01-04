@@ -6,7 +6,7 @@ let rndSuit () = match Random.int(4) with
   | 1 -> H
   | 2 -> D
   | 3 -> C 
-  | _ -> failwith "Errore" ;;
+  | _ -> failwith "Errore";;
 
 let rndCard () = 
   Card (1 + Random.int(10), rndSuit());;
