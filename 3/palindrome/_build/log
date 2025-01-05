@@ -1,0 +1,6 @@
+# dune init project palindrome
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/opam/.cache/dune/db
+# Workspace root: /workspaces/ocaml-challenge/3/palindrome
+# Auto-detected concurrency: 4
