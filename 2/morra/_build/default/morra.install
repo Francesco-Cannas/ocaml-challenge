@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/morra/META"
+  "_build/install/default/lib/morra/dune-package"
+  "_build/install/default/lib/morra/opam"
+]
+bin: [
+  "_build/install/default/bin/morra"
+]
+doc: [
+  "_build/install/default/doc/morra/README.md"
+]
